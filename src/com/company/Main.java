@@ -26,10 +26,10 @@ public class Main {
         int year = 2022;
         int year1 = year - 200;
         int year2 = year + 100;
-        for (year = year1; year < year2; year++);
-            if (year % 79 ==0) {
+        for (year = year1; year < year2; year++) {
+            if (year % 79 == 0) {
                 System.out.println(year);
+            }
         }
-
     }
 }
